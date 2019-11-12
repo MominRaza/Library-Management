@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #ff6700;
+    height: 60px;
+}
+header h1{
+    float: left;
+    margin-left: 50px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+header ul{
+    float: right;
+    margin-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+header ul li:hover, 
+header ul li.active{
+    background: rgba(255, 255, 255, 0.8);
+    transition: .5s;
+}
+header ul li a{
+    color: white;
+    padding: 0 30px;
+    text-decoration: none;
+}
+header ul li:hover a,
+header ul li.active a{
+    color: black;
+    transition: .5s;
+}
+aside, main{
+    display: inline-block;
+}
+aside{
+    background: #f9e1e1;
+    height: calc(100vh - 100px);
+    width: 230px;
+}
+aside ul{
+    margin-left: -8px;
+    margin-top: 50px;
+}
+aside ul li{
+    list-style: none;
+    margin: 30px 0;
+}
+aside ul li a{
+    color: black;
+    background: #0e7be7;
+    padding: 10px 50px;
+    width: 200px;
+    text-decoration: none;
+}
+aside ul li a:hover,
+aside ul li.active a{
+    background: #d0107d;
+    color: white;
+    transition: .5s;
+}
+main{
+    width: calc(100% - 234px);
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    vertical-align: top;
+    text-align: center;
+}
+main h2{
+    margin-top: 40px;
+}
+main table{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+main table tr{
+    height: 1.5em;
+}
+main table tr th{
+    border: 1px solid black;
+    background: lightgray;
+}
+main table tr td{
+    border: 1px solid black;
+    max-width: 200px;
+}
+main table tr td .fa{
+    margin: 5px 10px;
+}
+main form{
+    margin-left: calc(50% - 255px);
+}
+main form input{
+    display: block;
+    width: 400px;
+    margin: 30px;
+    padding: 10px 20px;
+}
+main form input[type="submit"]{
+    width: 445px;
+}
+main.about{
+    width: 100%;
+    height: unset;
+    overflow-y: unset;
+}
+main.about img, main.about p.abt{
+    display: inline-flex;
+}
+main.about img{
+    width: calc(40% - 70px);
+    margin: 60px 10px;
+}
+main.about p.abt{
+    width: 55%;
+    margin: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+main.about div, main.about form{
+    display: inline-block;
+}
+main.about div{
+    width: 50%;
+}
+main.about div p.a{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+main.about div p.c{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main.about div .fa{
+    font-size: 22px;
+    margin: 10px;
+}
+main.about form{
+    width: 45%;
+    vertical-align: top;
+    margin: 10px;
+}
+main.about form textarea{
+    display: block;
+    width: 400px;
+    margin: 30px;
+    padding: 10px 20px;
+}
+footer{
+    background: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+    margin: 0;
+}
